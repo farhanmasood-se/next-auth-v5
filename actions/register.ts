@@ -3,7 +3,7 @@
 import { RegisterSchema } from '@/schemas';
 import { db } from '@/lib/db';
 import * as z from 'zod';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { getUserByEmail } from '@/data/user';
 
 export const Register = async (values: z.infer<typeof RegisterSchema>) => {
