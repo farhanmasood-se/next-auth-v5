@@ -1,4 +1,3 @@
-import { Login } from '@/actions/login';
 import { RegisterForm } from '@/components/auth/register-form';
 
 const Register = () => {
@@ -9,4 +8,4 @@ const Register = () => {
   );
 };
 
-export default Login;
+export default Register;
